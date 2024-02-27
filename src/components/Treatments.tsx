@@ -4,6 +4,7 @@ import Button from "./Button"
 import Dropdowns from "./Dropdown"
 import convenios from '../assets/convenios.png'
 import Image from "next/image"
+import Link from "next/link"
 
 // import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
 // import { BsChevronDown } from 'react-icons/bs';
@@ -69,7 +70,9 @@ export default function Treatments() {
             textItem='É uma condição que ocorre quando o disco intervertebral, uma estrutura amortecedora localizada entre cada vértebra da coluna, sofre desgaste ou lesão. Esse disco é composto por um núcleo gelatinoso (núcleo pulposo) cercado por um anel resistente (ânulo fibroso). Em uma hérnia de disco, parte do núcleo pulposo se projeta para fora do anel fibroso, podendo pressionar os nervos próximos. Isso pode levar a sintomas como dor na área da hérnia, que muitas vezes pode irradiar para outros locais, dependendo do nervo afetado'
             />
 
-            <Button title="FALE CONOSCO AGORA" className="bg-gray-200 hover:bg-black-300 text-gray-800 hover:text-gray-50 rounded-full py-2 px-4 mt-4 mb-5 text-2xl font-semibold"/>
+            <Link href="https://api.whatsapp.com/send?phone=5574999180808"  target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <Button title="FALE CONOSCO AGORA" className="bg-gray-200 hover:bg-black-300 text-gray-800 hover:text-gray-50 rounded-full py-2 px-4 mt-4 mb-5 text-2xl font-semibold"/>
+            </Link>
 
             <p className="text-brown-300 text-2xl mb-4">Convênios Aceitos:</p>
 
