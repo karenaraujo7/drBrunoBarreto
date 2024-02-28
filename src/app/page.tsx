@@ -17,13 +17,13 @@ export default function Home() {
 
           
         <Mystory/>
-        <div className='flex justify-center items-center absolute py-3 px-3 rounded-full bg-brown-300'>
+        {/* <div className='flex justify-center items-center absolute py-3 px-3 rounded-full bg-brown-300'>
                 <BiSolidBuildingHouse className='text-gray-100 hover:text-black-300 text-3xl '/>
-            </div>
+            </div> */}
         <Clinic/>
         <Contact/>
         <Treatments/>
-        <Depositions/>
+        {/* <Depositions/> */}
         </div>
       </main>
    

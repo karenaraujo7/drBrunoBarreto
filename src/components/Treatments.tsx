@@ -12,7 +12,7 @@ import Link from "next/link"
 
 export default function Treatments() {
     return (
-        <div className="flex bg-blue-800 px-96 py-14 justify-center items-center flex-col ">
+        <div className="flex bg-green-800 px-4 py-8 justify-center items-center flex-col ">
             <p className="text-4xl mb-4 font-alt font-extralight font-normal">TRATAMENTOS:</p>
             
             <Dropdowns 
@@ -77,6 +77,26 @@ export default function Treatments() {
             <p className="text-brown-300 text-2xl mb-4">Convênios Aceitos:</p>
 
             <Image src={convenios} alt='Convênios' className="mb-10"/>
+
+            <style jsx>{`
+                @media (max-width: 640px) {
+                    .flex {
+                        flex-direction: column;
+                    }
+                    .px-4 {
+                        padding-left: 1rem;
+                        padding-right: 1rem;
+                    }
+                    .py-8 {
+                        padding-top: 2rem;
+                        padding-bottom: 2rem;
+                    }
+                    .text-4xl {
+                        font-size: 2rem;
+                    }
+                    /* Add more responsive styles as needed */
+                }
+            `}</style>
 
         </div>
     )

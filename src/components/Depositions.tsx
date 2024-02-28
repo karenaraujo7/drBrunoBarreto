@@ -8,7 +8,7 @@ export default function Depositions() {
                 <p className="font-alt text-5xl font-light pt-20">Depoimentos de <br /> nossos pacientes</p>
 
                 <Link href="https://api.whatsapp.com/send?phone=5574999180808"  target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
-                    <Button title="FALE CONOSCO AGORA" className="bg-blue-500 hover:bg-black-200 py-2 px-4 text-lg font-semibold rounded-full"/>
+                    <Button title="FALE CONOSCO AGORA" className="bg-green-300 hover:bg-black-200 py-2 px-4 text-lg font-semibold rounded-full"/>
                 </Link>
             </div>
         </div>
