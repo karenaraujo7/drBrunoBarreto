@@ -12,7 +12,8 @@ export default function Mystory() {
                         <img src={heroImage.src} alt="hero" className="w-full h-48 sm:h-96 object-contain" />
                         
                         <p className="text-4xl font-alt font-light">MINHA HISTÓRIA</p>
-                        <p className="text-justify">praesent.</p>
+                        <p className="text-justify">Me chamo Bruno Barreto, atuo na área da saúde há mais de 10 anos. Hoje tenho um objetivo claro: me especializar cada vez mais na área de ortopedia regenerativa, ser referência em intervenção em dor e tratar as dores dos meus pacientes sem cirurgias, através de procedimentos minimamente invasivos.
+                        </p>
                         <Dropdown className="bg-brown-300">
                             <DropdownTrigger>
                                 <Button className='bg-green-300 hover:bg-brown-300 font-bold text-gray-50 w-full justify-between hover:text-black-300'>
@@ -21,12 +22,12 @@ export default function Mystory() {
                                 </Button>
                             </DropdownTrigger>
                             <DropdownMenu>
-                                <DropdownItem className='bg-brown-300 '>- Sagittis eu volutpat odio facilisis mauris sit amet - 2008</DropdownItem>
-                                <DropdownItem>- Tristique et egestas quis ipsum suspendisse ultrices gravida dictum - 1 ano</DropdownItem>
-                                <DropdownItem>- Urna porttitor rhoncus dolor purus - Salvador</DropdownItem>
-                                <DropdownItem>- Risus sed vulputate odio ut - 2 anos</DropdownItem>
-                                <DropdownItem>- Morbi tristique senectus et netus et malesuada - 1 ano</DropdownItem>
-                                <DropdownItem>- Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu</DropdownItem>
+                                <DropdownItem className='bg-brown-300 '>- Medicina na Universidade Alzira Velano em Alfenas- MG</DropdownItem>
+                                <DropdownItem>- Residência médica em ortopedia e traumatologia pela CEOT (COT-Martagão)</DropdownItem>
+                                <DropdownItem>- Formação complementar em USG, músculo esquelético pela CALIPER</DropdownItem>
+                                <DropdownItem>- Dor e medicina regenerativa na Alleviare</DropdownItem>
+                                <DropdownItem>- Graduando em dor clínica pela escola CTD e núcleo de neuromodulação da Bahia </DropdownItem>
+                                <DropdownItem>- Fellowship na ORTHOREGEN International Curse</DropdownItem>
                             </DropdownMenu>
                         </Dropdown>
                     </div>
