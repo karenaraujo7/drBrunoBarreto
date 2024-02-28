@@ -10,9 +10,7 @@ export default function Mystory() {
         <div className='bg-green-800'>
             <div className="flex justify-center items-center px-4 py-8 flex-col content-center">
                         <img src={heroImage.src} alt="hero" className="w-full h-48 sm:h-96 object-contain" />
-                        <div className="text-center">
-                            <h1 className="text-4xl font-alt font-light">Dr. Bruno</h1>
-                        </div>
+                        
                         <p className="text-4xl font-alt font-light">MINHA HISTÓRIA</p>
                         <p className="text-justify">praesent.</p>
                         <Dropdown className="bg-brown-300">
