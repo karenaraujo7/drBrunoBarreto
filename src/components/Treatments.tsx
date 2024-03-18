@@ -6,10 +6,6 @@ import convenios from '../assets/convenios.png'
 import Image from "next/image"
 import Link from "next/link"
 
-// import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
-// import { BsChevronDown } from 'react-icons/bs';
-
-
 export default function Treatments() {
     return (
         <div className="flex bg-green-800 px-4 py-8 justify-center items-center flex-col ">
@@ -74,9 +70,9 @@ export default function Treatments() {
                 <Button title="FALE CONOSCO AGORA" className="bg-gray-200 hover:bg-black-300 text-gray-800 hover:text-gray-50 rounded-full py-2 px-4 mt-4 mb-5 text-2xl font-semibold"/>
             </Link>
 
-            <p className="text-brown-300 text-2xl mb-4">Convênios Aceitos:</p>
+            {/* <p className="text-brown-300 text-2xl mb-4">Convênios Aceitos:</p>
 
-            <Image src={convenios} alt='Convênios' className="mb-10"/>
+            <Image src={convenios} alt='Convênios' className="mb-10"/> */}
 
             <style jsx>{`
                 @media (max-width: 640px) {
